@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: url(./tic-tac-toe.jpeg);
+  color: white;
+  object-position: center;
+  object-fit: contain;
+  font-size: 3rem;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+[role="heading"] {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background: coral;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
