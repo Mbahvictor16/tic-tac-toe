@@ -35,4 +35,22 @@ a {
   background: coral;
   padding: 10px 50px;
   border-radius: 5px;
+  text-align: center;
+  display: block;
+  margin-top: 40px;
+  text-align: center;
+}
+
+a:nth-of-type(2),
+a:nth-of-type(3) {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+a#restart.show,
+a#continue.show {
+  display: block;
 }
